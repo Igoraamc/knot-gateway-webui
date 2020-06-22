@@ -1,5 +1,9 @@
 @import "~bootstrap/less/variables.less";
 
+.device-min-height {
+  min-height: 400px;
+}
+
 .device-grid {
   display: flex;
   flex-wrap: wrap;
@@ -60,4 +64,96 @@
 .device-footer {
   margin-top: 20px;
   text-align: right;
+}
+
+.add-device {
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+}
+
+.add-device button {
+  background: #62a943;
+    border: 1px solid #ddd;
+    color: white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.close-button {
+  position: absolute;
+  right: 4%;
+  top: 3%;
+  text-decoration: none !important;
+  font-size: 30px;
+}
+
+form.device-form .fields-space {
+  margin-bottom: 10px;
+}
+
+form.device-form .control-label {
+  text-align: start;
+}
+
+.modal-dialog {
+  width: 800px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.fields-title h3 {
+  margin: 0;
+  margin-bottom: 15px;
+  color: #62a943;
+}
+
+.separator {
+  border-bottom: 1px solid #e5e5e5;
+  margin: 20px 0;
+}
+
+.data-item {
+  padding: 30px 0px;
+  border: 1px solid #aaaaaa;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
+.data-item-index {
+  padding: 10px 60px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-data-item {
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+}
+
+.add-data-item .add-data-item-button {
+  background: #62A943;
+  border-radius: 15px;
+  color: white;
+  border: 0;
+  padding: 5px 14px;
 }
